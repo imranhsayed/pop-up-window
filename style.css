@@ -1,0 +1,47 @@
+/* Container element */
+.element {
+	position: relative;
+	padding: 10px;
+	margin: 100px;
+	user-select: none;
+	border: 1px solid coral;
+	display: inline-block;
+	cursor: pointer;
+}
+
+/* Pop Up Element */
+.pop-up-element {
+	position: absolute;
+	visibility: hidden;
+	display: block;
+	z-index: 9999;
+	left: 0;
+	bottom: 0;
+	width: 400px;
+	height: 100px;
+	padding: 5px;
+	font-size: 12px;
+	text-align: center;
+	border: 1px solid #555;
+	background: #ffffff;
+	color: #000000;
+	box-shadow: 2px 2px 2px #555;
+}
+
+/* Visibility Class */
+.show {
+	visibility: visible;
+}
+
+/* Shadow Div */
+.shadow-div {
+	background-color: rgb(0, 0, 0);
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 0.7;
+	z-index: 9998;
+	cursor: pointer;
+}
